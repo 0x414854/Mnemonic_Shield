@@ -105,6 +105,8 @@ Make sure you have [Python](https://www.python.org/downloads/) installed on your
   ```
 
   🖼️ `sigil.png` file is created in the `sigils/` folder.
+  
+  ![sigil1](https://github.com/user-attachments/assets/ca614002-9649-4b74-8114-8830c954b582)
 
   🖊️ Example with a 24-word mnemonic phrase
 
@@ -121,6 +123,8 @@ Make sure you have [Python](https://www.python.org/downloads/) installed on your
   ```
 
   🖼️ `sigil.png` file is created in the `sigils/` folder.
+  
+  ![sigil](https://github.com/user-attachments/assets/05ca90ff-da32-4618-8d06-a168437effa4)
 
 - 🔹 `Recover a Mnemonic Phrase`
 
