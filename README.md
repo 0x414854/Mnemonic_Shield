@@ -14,7 +14,7 @@ The sigil **can be stored in various formats**, such as printed images, a painti
 - [Installation](#installation)
 - [Usage](#usage)
 - [Security and Ethics](security-and-ethics)
-- [Comparison : Sigil Encoding vs. BIP39 Mnemonic Phrase](comparison-:-sigil-encoding-vs.-bip39-mnemonic-phrase)
+- [Comparison : Sigil Encoding vs. BIP39 Mnemonic Phrase](#comparison-:-sigil-encoding-vs.-bip39-mnemonic-phrase)
 - [Benchmarks](#benchmarks)
 - [Roadmap](#roadmap)
 - [Tree Directory](#tree-directory)
