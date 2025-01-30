@@ -56,11 +56,11 @@ def generate_number_mapping(combined_value):
     mapping = [int(c) for c in value_str]
     return mapping
 
-def draw_sigil(number_mapping, filename, combined_value):
+def draw_sigil(number_mapping, filename, combined_value, add_name=False):
     ax = plt.subplots()[1]
     ax.set_aspect('equal')
     ax.set_xlim(0, 10)
-    ax.set_ylim(-2, 10)
+    ax.set_ylim(-2, 10) if add_name else ax.set_ylim(0, 10)
 
     point_positions = [
         (5, 9), (7, 8), (8.5, 6), (8.5, 4), (7, 2),
@@ -120,7 +120,8 @@ def draw_sigil(number_mapping, filename, combined_value):
              [last_end[1] - perpendicular_dy/2, last_end[1] + perpendicular_dy/2], 
              color='#FF9900', linewidth=last_thickness + 1) 
 
-    ax.text(5, -1, str(combined_value), fontsize=12, ha='center', va='center', color='black')
+    if add_name and combined_value:
+        ax.text(5, -1, str(combined_value), fontsize=12, ha='center', va='center', color='black')
 
     ax.axis('off')
     plt.savefig(filename, bbox_inches='tight', pad_inches=0, transparent=False)
@@ -149,7 +150,7 @@ def main():
 
         sigil_folder = "sigils"
         os.makedirs(sigil_folder, exist_ok=True)
-        filename = os.path.join(sigil_folder, 'sigil.png')
+        filename = os.path.join(sigil_folder, 'sigil2.png')
         draw_sigil(number_mapping, filename, combined_value)
         print(f"{GREEN}Sigil saved as {filename[-10:]}{RESET}")
 

@@ -14,7 +14,7 @@ The sigil **can be stored in various formats**, such as printed images, a painti
 - [Installation](#installation)
 - [Usage](#usage)
 - [Security and Ethics](security-and-ethics)
-- [Comparison : Sigil Encoding vs. BIP39 Mnemonic Phrase](#comparison-:-sigil-encoding-vs.-bip39-mnemonic-phrase)
+- [Comparison](#comparison)
 - [Benchmarks](#benchmarks)
 - [Roadmap](#roadmap)
 - [Tree Directory](#tree-directory)
@@ -94,7 +94,7 @@ Make sure you have [Python](https://www.python.org/downloads/) installed on your
   🖊️ Example with a 12-word mnemonic phrase
 
   ```bash
-  chair symptom verify cage record shadow annual forest taxi solid purity picture
+  foster file unknown pluck economy end bird pistol awesome dentist move crucia
   ```
 
   📤 Output
@@ -190,7 +190,7 @@ Ensuring the security and ethical use of this project is a top priority. Below a
 
 By following these security best practices, users can **enhance their mnemonic storage** while keeping their sensitive data protected.
 
-## Comparison : Sigil Encoding vs. BIP39 Mnemonic Phrase
+## Comparison
 
 This project offers a discreet alternative for storing BIP39 mnemonic phrases by encoding them into a **unique number** and generating a corresponding **sigil**. Below is a comparison between this approach and the traditional method.
 
@@ -232,6 +232,7 @@ Currently, no official benchmarks have been performed on the execution speed or 
 ## Roadmap
 
 - [ ] `Export options` : _Allow users to save the sigil in other formats like `SVG` or `PDF`._
+- ✅ `Add option to save sigil with or without combined value`
 
 ## Tree Directory
 
