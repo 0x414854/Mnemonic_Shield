@@ -6,7 +6,7 @@ This project offers an **innovative way to enhance the security of storing a BIP
 
 The sigil **can be stored in various formats**, such as printed images, a painting, or other creative mediums, **making it extremely difficult for attackers to recognize or access the underlying mnemonic**.<br>In the event that the sigil is lost or compromised, **the mnemonic phrase can still be recovered by decoding the encoded value, providing a secure and discreet method for backing up sensitive information.**
 
-## Table of Contents 📚
+## Table of Contents
 
 - [Table of Contents](#table-of-contents)
 - [Features](#features)
@@ -14,6 +14,7 @@ The sigil **can be stored in various formats**, such as printed images, a painti
 - [Installation](#installation)
 - [Usage](#usage)
 - [Security and Ethics](security-and-ethics)
+- [Comparison : Sigil Encoding vs. BIP39 Mnemonic Phrase](comparison-:-sigil-encoding-vs.-bip39-mnemonic-phrase)
 - [Benchmarks](#benchmarks)
 - [Roadmap](#roadmap)
 - [Tree Directory](#tree-directory)
@@ -22,7 +23,7 @@ The sigil **can be stored in various formats**, such as printed images, a painti
 - [License](#license)
 - [Author](#author)
 
-## Features ✨
+## Features
 
 - 🌀 **Mnemonic Phrase to Sigil Transformation**<br>_Converts a mnemonic phrase into a unique sigil using mathematical transformations._
 
@@ -40,7 +41,7 @@ The sigil **can be stored in various formats**, such as printed images, a painti
 
 - 🔗**Easy Integration**<br>_The code is designed to be easily adaptable for different use cases and can be modified or extended to integrate with other systems or interfaces._
 
-## Prerequisites 🛠️
+## Prerequisites
 
 - `Python 3.11`
 
@@ -49,7 +50,7 @@ The sigil **can be stored in various formats**, such as printed images, a painti
   - `numpy`
   - `shadePy`
 
-## **Installation ⚙️**
+## Installation
 
 Make sure you have [Python](https://www.python.org/downloads/) installed on your system before running the install command.
 
@@ -74,7 +75,7 @@ Make sure you have [Python](https://www.python.org/downloads/) installed on your
    - Make sure you have the BIP39 word list file located at `./utils/wordsBIP39.txt`.
    - _You can obtain the file from [here](https://github.com/0x414854/Words_BIP39/blob/main/wordsBIP39.txt)._
 
-## Usage ▶️
+## Usage
 
 - Run the script
 
@@ -105,7 +106,7 @@ Make sure you have [Python](https://www.python.org/downloads/) installed on your
   ```
 
   🖼️ `sigil.png` file is created in the `sigils/` folder.
-  
+
   ![sigil1](https://github.com/user-attachments/assets/ca614002-9649-4b74-8114-8830c954b582)
 
   🖊️ Example with a 24-word mnemonic phrase
@@ -123,7 +124,7 @@ Make sure you have [Python](https://www.python.org/downloads/) installed on your
   ```
 
   🖼️ `sigil.png` file is created in the `sigils/` folder.
-  
+
   ![sigil](https://github.com/user-attachments/assets/05ca90ff-da32-4618-8d06-a168437effa4)
 
 - 🔹 `Recover a Mnemonic Phrase`
@@ -160,7 +161,7 @@ Make sure you have [Python](https://www.python.org/downloads/) installed on your
   Reconstructed mnemonic phrase : vital repair dizzy traffic library brief shell often expand south burst foam tissue twist attitude cupboard vapor country today return marine can play brave
   ```
 
-## Security and Ethics 🔐
+## Security and Ethics
 
 Ensuring the security and ethical use of this project is a top priority. Below are key considerations regarding its safe and responsible implementation :
 
@@ -189,11 +190,7 @@ Ensuring the security and ethical use of this project is a top priority. Below a
 
 By following these security best practices, users can **enhance their mnemonic storage** while keeping their sensitive data protected.
 
-## 📌 Comparaison : Encodage avec Sigil vs Phrase Mnémotechnique BIP39
-
-Ce projet propose une alternative discrète au stockage des phrases mnémotechniques BIP39 en les encodant sous forme d'un **nombre unique** et en générant un **sigil** correspondant. Voici une comparaison entre cette approche et la méthode classique.
-
-## 📌 Comparison: Sigil Encoding vs. BIP39 Mnemonic Phrase
+## Comparison : Sigil Encoding vs. BIP39 Mnemonic Phrase
 
 This project offers a discreet alternative for storing BIP39 mnemonic phrases by encoding them into a **unique number** and generating a corresponding **sigil**. Below is a comparison between this approach and the traditional method.
 
@@ -228,32 +225,32 @@ This project offers a discreet alternative for storing BIP39 mnemonic phrases by
 - Keep a **paper copy of the BIP39 phrase** in a secure place to avoid accidental loss.
 - Add a **password or an extra key** to enhance security in case the sigil is discovered.
 
-## Benchmarks 📊
+## Benchmarks
 
 Currently, no official benchmarks have been performed on the execution speed or memory usage of the script. However, it is designed to be lightweight, and the operations involved (especially plotting) should run efficiently on most modern computers.
 
-## Roadmap 🛣️
+## Roadmap
 
 - [ ] `Export options` : _Allow users to save the sigil in other formats like `SVG` or `PDF`._
 
-## 🌳 Tree Directory
+## Tree Directory
 
 .
 <br>├── .gitignore
 <br>├── LICENSE
-<br>├── mnemonicShield.py
 <br>├── README.md
+<br>├── mnemonicShield.py
 <br>├── requirements.txt
 <br>├── 📁 utils/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;└── wordsBIP39.txt
 <br>└── 📁 (sigils)/
 <br>&nbsp;&nbsp;&nbsp;&nbsp; └── (sigil.png)
 
-## 🤝 Contributions
+## Contributions
 
 Feel free to submit issues and pull requests to improve this project !
 
-## 💖 Support the Project
+## Support the Project
 
 **⭐ Giving it a star on GitHub ⭐**
 
@@ -296,10 +293,10 @@ Thank you so much for your generosity. Your support truly means the world to us 
 
 **➡️ Take action now ! Every contribution, big or small, makes a huge impact.**
 
-## 📄 License
+## License
 
 This project is licensed under the **[MIT License](https://github.com/0x414854/Mnemonic_Shield/blob/main/LICENSE)**.
 
-## 👤 Author
+## Author
 
 [**0x414854**](https://github.com/0x414854)
