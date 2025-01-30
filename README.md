@@ -193,36 +193,40 @@ By following these security best practices, users can **enhance their mnemonic s
 
 Ce projet propose une alternative discrète au stockage des phrases mnémotechniques BIP39 en les encodant sous forme d'un **nombre unique** et en générant un **sigil** correspondant. Voici une comparaison entre cette approche et la méthode classique.
 
-### ✅ Avantages de l'encodage avec Sigil
+## 📌 Comparison: Sigil Encoding vs. BIP39 Mnemonic Phrase
 
-- **🔒 Sécurité accrue** : La seed phrase n'est pas directement identifiable comme une phrase BIP39.
-- **🕵️ Discrétion** : Un sigil ressemble à un dessin abstrait, rendant la récupération moins évidente pour un attaquant.
-- **📁 Stockage numérique ou physique** : Peut être enregistré sous forme d’image ou gravé sur un support physique.
-- **🔢 Réduction de l’espace de stockage** : La phrase est transformée en un seul nombre, plus compact.
+This project offers a discreet alternative for storing BIP39 mnemonic phrases by encoding them into a **unique number** and generating a corresponding **sigil**. Below is a comparison between this approach and the traditional method.
 
-### ❌ Inconvénients de l'encodage avec Sigil
+### ✅ Advantages of Sigil Encoding
 
-- **⚠️ Dépendance au code** : Impossible de récupérer la phrase sans exécuter le programme.
-- **💾 Nécessite un fichier BIP39** : La récupération dépend du dictionnaire exact des mots BIP39.
-- **📉 Moins universel** : Un wallet crypto standard ne reconnaîtra pas directement ce format.
-- **🛠️ Risque de perte** : Si le code source et le sigil sont perdus, la phrase devient irrécupérable.
+- **🔒 Enhanced Security**: The seed phrase is not directly identifiable as a BIP39 mnemonic.
+- **🕵️ Increased Discretion**: A sigil appears as an abstract drawing, making recovery less obvious for an attacker.
+- **📁 Digital or Physical Storage**: Can be saved as an image or engraved onto a physical medium.
+- **🔢 Reduced Storage Space**: The phrase is transformed into a single, more compact number.
 
-### 🔄 Comparaison avec une phrase BIP39 classique
+### ❌ Disadvantages of Sigil Encoding
 
-| Critère                       | Encodage avec Sigil                        | Phrase Mnémotechnique BIP39              |
-| ----------------------------- | ------------------------------------------ | ---------------------------------------- |
-| **Sécurité** 🔒               | ✅ Chiffrement indirect                    | ❌ Facile à identifier                   |
-| **Discrétion** 🕵️             | ✅ Sigil non reconnaissable                | ❌ Ressemble à une seed phrase           |
-| **Facilité d'utilisation** ⚙️ | ❌ Dépend d'un script                      | ✅ Universel et portable                 |
-| **Portabilité** 🛠️            | ✅ Peut être gravé ou stocké numériquement | ❌ Peut être volé si mal protégé         |
-| **Risque de perte** ⚠️        | ❌ Code et sigil indispensables            | ✅ Peut être écrit sur papier            |
-| **Récupération** 🔄           | ❌ Requiert le script et la base BIP39     | ✅ Directement utilisable dans un wallet |
+- **⚠️ Code Dependency**: The phrase cannot be recovered without running the program.
+- **💾 Requires a BIP39 File**: Recovery depends on the exact BIP39 word dictionary.
+- **📉 Less Universal**: A standard crypto wallet will not directly recognize this format.
+- **🛠️ Risk of Loss**: If the source code and sigil are lost, the phrase becomes unrecoverable.
 
-### 🚀 Recommandation
+### 🔄 Comparison with a Standard BIP39 Mnemonic Phrase
 
-- Utiliser **l'encodage avec sigil** comme **une méthode de sauvegarde discrète**.
-- Conserver une **copie papier de la phrase BIP39** dans un endroit sécurisé pour éviter toute perte accidentelle.
-- Ajouter un **mot de passe ou une clé supplémentaire** pour renforcer la sécurité en cas de découverte du sigil.
+| Criterion           | Sigil Encoding                         | BIP39 Mnemonic Phrase                  |
+| ------------------- | -------------------------------------- | -------------------------------------- |
+| **Security** 🔒     | ✅ Indirect encryption                 | ❌ Easily recognizable                 |
+| **Discretion** 🕵️   | ✅ Unrecognizable sigil                | ❌ Looks like a seed phrase            |
+| **Ease of Use** ⚙️  | ❌ Script-dependent                    | ✅ Universal and portable              |
+| **Portability** 🛠️  | ✅ Can be engraved or stored digitally | ❌ Can be stolen if not well protected |
+| **Risk of Loss** ⚠️ | ❌ Requires both code and sigil        | ✅ Can be written on paper             |
+| **Recovery** 🔄     | ❌ Needs script and BIP39 base file    | ✅ Directly usable in a wallet         |
+
+### 🚀 Recommendation
+
+- Use **sigil encoding** as a **discreet backup method**.
+- Keep a **paper copy of the BIP39 phrase** in a secure place to avoid accidental loss.
+- Add a **password or an extra key** to enhance security in case the sigil is discovered.
 
 ## Benchmarks 📊
 
