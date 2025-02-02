@@ -13,7 +13,7 @@ Le sigil **peut être stocké sous différents formats**, tels que des images im
 - [Prérequis](#prérequis)
 - [Installation](#installation)
 - [Utilisation](#utilisation)
-- [Sécurité et Éthique](sécurité-et-éthique)
+- [Sécurité et Éthique](sécurité-et-ethique)
 - [Comparaison](#comparaison)
 - [Benchmarks](#benchmarks)
 - [Roadmap](#roadmap)
@@ -241,6 +241,8 @@ Actuellement, aucun benchmark officiel n'a été réalisé sur la vitesse d'exé
 <br>├── README.md
 <br>├── mnemonicShield.py
 <br>├── requirements.txt
+<br>├── 📁 docs/
+<br>&nbsp;&nbsp;&nbsp;&nbsp;└── README_FR.md
 <br>├── 📁 utils/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;└── wordsBIP39.txt
 <br>└── 📁 (sigils)/

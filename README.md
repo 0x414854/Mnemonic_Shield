@@ -6,6 +6,8 @@ This project offers an **innovative way to enhance the security of storing a BIP
 
 The sigil **can be stored in various formats**, such as printed images, a painting, or other creative mediums, **making it extremely difficult for attackers to recognize or access the underlying mnemonic**.<br>In the event that the sigil is lost or compromised, **the mnemonic phrase can still be recovered by decoding the encoded value, providing a secure and discreet method for backing up sensitive information.**
 
+[French Version](https://github.com/0x414854/Mnemonic_Shield/blob/main/docs/README_FR.md)
+
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
@@ -242,6 +244,8 @@ Currently, no official benchmarks have been performed on the execution speed or 
 <br>├── README.md
 <br>├── mnemonicShield.py
 <br>├── requirements.txt
+<br>├── 📁 docs/
+<br>&nbsp;&nbsp;&nbsp;&nbsp;└── README_FR.md
 <br>├── 📁 utils/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;└── wordsBIP39.txt
 <br>└── 📁 (sigils)/
